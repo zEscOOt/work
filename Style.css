@@ -1,0 +1,46 @@
+ul {
+list-style-type: circle;
+}
+
+table, th, td{
+	border: 1px solid;
+	border-collapse: collapse;
+
+}
+#empty, th {
+	width: 250px;
+	background-color: #34b4eb;
+}
+
+th, td {
+  padding: 15px;
+  }
+
+  tr:nth-child(even) {background-color: #8ce2ff;}
+  tr:nth-child(odd) {background-color: #baeeff;}
+
+fieldset input {
+  position: relative;
+  left: 100px;
+}
+select {
+position: relative;
+  left: 100px;
+}
+
+  fieldset {
+		width: 20%;
+  }
+
+  #yes {
+  position: relative;
+  left: 100px;
+  }
+  input[type="submit"] {
+  position: relative;
+  background-color: green;
+  border-radius: 15px;
+  color: white;
+  margin-left: 200px;
+  margin-top: 50px:}
+ 
